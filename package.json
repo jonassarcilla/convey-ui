@@ -24,7 +24,7 @@
     "access": "public"
   },
   "name": "convey-ui",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -37,7 +37,7 @@
     "build-storybook": "storybook build",
     "release": "sh ./scripts/release.sh",
     "prettier": "prettier --write .",
-    "chromatic": "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
+    "chromatic": "npx chromatic --project-token=chpt_4c3ad470995df49"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",
@@ -47,6 +47,7 @@
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.12.1",
     "@storybook/addon-essentials": "^7.6.17",
     "@storybook/addon-interactions": "^7.6.17",
     "@storybook/addon-links": "^7.6.17",
