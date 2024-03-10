@@ -1,10 +1,10 @@
 import type { StoryObj } from '@storybook/react';
 import Button from './Button';
 declare const meta: {
-  title: string;
-  component: typeof Button;
-  tags: string[];
-  argTypes: {};
+    title: string;
+    component: typeof Button;
+    tags: string[];
+    argTypes: {};
 };
 export default meta;
 type Story = StoryObj<typeof meta>;

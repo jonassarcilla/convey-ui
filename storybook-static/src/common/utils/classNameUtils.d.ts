@@ -7,4 +7,5 @@ import { ClassValue } from 'clsx';
  * @param classes {ClassValue[]} - Array of classes to merge
  * @returns {string}
  */
-export declare const clsxMerge: (...classes: ClassValue[]) => string;
+declare const clsxMerge: (...classes: ClassValue[]) => string;
+export default clsxMerge;

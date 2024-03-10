@@ -1,3 +1,2 @@
-import React from 'react';
-import './page.css';
-export declare const Page: React.FC;
+declare function Page(): import("react/jsx-runtime").JSX.Element;
+export default Page;

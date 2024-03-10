@@ -1,10 +1,11 @@
 import type { StoryObj } from '@storybook/react';
+import Page from './Page';
 declare const meta: {
-  title: string;
-  component: import('react').FC<{}>;
-  parameters: {
-    layout: string;
-  };
+    title: string;
+    component: typeof Page;
+    parameters: {
+        layout: string;
+    };
 };
 export default meta;
 type Story = StoryObj<typeof meta>;
