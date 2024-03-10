@@ -24,7 +24,7 @@
     "access": "public"
   },
   "name": "convey-ui",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -35,7 +35,7 @@
     "test": "vitest",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "release": "sh ./scripts/release.sh",
+    "release": "bash ./scripts/release.sh",
     "prettier": "prettier --write .",
     "chromatic": "npx chromatic --project-token=chpt_4c3ad470995df49"
   },
